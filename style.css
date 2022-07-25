@@ -1,3 +1,23 @@
+div {
+    color: white;
+}
+
+div h4 {
+    text-transform: uppercase;
+}
+
+.cardSedans {
+    background: #D2691E;
+}
+
+.cardSuvs {
+    background: #4169E1;
+}
+
+.cardLuxury {
+    background: #191970;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
