@@ -1,5 +1,26 @@
+.box {
+    width: 800px;
+    height: 400px;
+    background-color: #FFFFFF;
+}
+
+.cardSedans, .cardSuvs, .cardLuxury {
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+}
+
 div {
     color: white;
+}
+
+.textos {
+    margin: 5px;
+    align-items: center;
+}
+
+.botao {
+    margin: 5px;
 }
 
 div h4 {
@@ -25,4 +46,16 @@ div h4 {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 858px){
+    .box {
+        display: grid;
+        flex-direction: column;
+    }
+
+    .cardSedans, .cardSuvs, .cardLuxury {
+        height: 270px;
+        margin: 5px;
+    }
 }
