@@ -1,17 +1,18 @@
 .box {
     width: 800px;
     height: 400px;
-    background-color: #FFFFFF;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .cardSedans, .cardSuvs, .cardLuxury {
     width: 200px;
-    height: 400px;
+    height: 300px;
     display: inline-block;
 }
 
 div {
-    color: white;
+    color: hsl(0, 0%, 95%);
 }
 
 .textos {
@@ -21,22 +22,47 @@ div {
 
 .botao {
     margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
 }
 
-div h4 {
+.cardSedans .botao {
+    color: hsl(31, 77%, 52%);
+}
+
+.cardSuvs .botao {
+    color: hsl(184, 100%, 22%);
+}
+
+.cardLuxury .botao {
+    color: hsl(179, 100%, 13%);
+}
+
+h4 {
     text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
 }
 
 .cardSedans {
-    background: #D2691E;
+    background: hsl(31, 77%, 52%);
+    padding: 10px 10px;
 }
 
 .cardSuvs {
-    background: #4169E1;
+    background: hsl(184, 100%, 22%);
+    padding: 10px 10px;
 }
 
 .cardLuxury {
-    background: #191970;
+    background: hsl(179, 100%, 13%);
+    padding: 10px 10px;
 }
 
 .attribution {
