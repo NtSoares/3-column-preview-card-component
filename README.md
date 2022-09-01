@@ -17,6 +17,12 @@ Este projeto tem como referência o [3-column preview card component do Frontend
 * Flexbox
 * Adequação para layout Responsivo
 
+### Confira como ficou o resultado final através do gif e do endereço abaixo
+
+![Sep-01-2022 08-46-41](https://user-images.githubusercontent.com/86579155/187909612-42aed7da-f6d0-454b-b334-9434597a9bad.gif)
+
+https://ntsoares.github.io/3-column-preview-card-component/
+
 ### Autor
 
 - GitHub - [Antonio Soares Neto](https://github.com/NtSoares)
